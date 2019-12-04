@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+  }
+   
+  main {
+    display: block;
+  }
+  
+  header {
+    border-style:solid;
+    border-color:#cf0a6c;
+    }
+
+    .contenedor-principal {
+    border-style:solid;
+    border-color:#08ffff;
+    }
+    
+    footer {
+    border-style:solid;
+    border-color:#880015;
+
+    }
+
+    main {
+    border-style:solid;
+    border-color:#07f75f;
+    border-width:3px;
+    }
+
+    section .mensaje-chat {
+    border-style:solid;
+    border-color:#e34207;
+    border-width:2px;
+    
+    }
+
+    .lista menu {
+    list-style: none;
+    }
+
+    .lista-menu li {
+    display: inline-block;
+    margin-right: 25px;
+
+    }
+
+    .contenedor-principal {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+    }
+
+    .contenedor-principal main {
+    display: grid;
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    }
+
+    .comentarios {
+    display: grid;
+    grid-gap: 10px;
+
+    }
